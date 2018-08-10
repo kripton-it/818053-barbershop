@@ -9,9 +9,9 @@
 <body>
   <header class="main-header">
     <nav class="main navigation">
-      <a class="main-header-logo">
-        <img src="img/index-logo.svg" alt="Логотип барбершопа «Бородинский»" width="368"
-          height="153">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo.svg" alt="Логотип барбершопа «Бородинский»" width="111"
+          height="24">
       </a>
       <ul class="site-navigation">
         <li>
@@ -23,7 +23,7 @@
         <li>
           <a href="price.html">Прайс-лист</a>
         </li>
-        <li>
+        <li class="site-navigation-current">
           <a href="catalog.html">Магазин</a>
         </li>
         <li>
@@ -39,7 +39,7 @@
   </header>
 
   <main class="container">
-    <h1>
+    <h1 class="page-title">
       Набор для путешествий «Baxter of California»
     </h1>
 
@@ -53,47 +53,49 @@
       <li>
         <a href="#">Средства для ухода</a>
       </li>
-      <li>Набор для путешествий «Baxter of California»</li>
+      <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»</li>
     </ul>
 
-    <section class="item-gallery">
-      <h2 class="visually-hidden">Фотогалерея:</h2>
-      <div class="item-gallery-big">
-        <img src="img/item1.jpg" alt="Набор для путешествий «Baxter of California»" width="300" height="300">
-      </div>
-      <div class="item-gallery-small">
-        <a href="#">
-          <img src="img/item2.jpg" alt="Набор для путешествий «Baxter of California»" width="70" height="70">
-        </a>
-        <a href="#">
-          <img src="img/item3.jpg" alt="Набор для путешествий «Baxter of California»" width="70" height="70">
-        </a>
-        <a href="#">
-          <img src="img/item4.jpg" alt="Набор для путешествий «Baxter of California»" width="70" height="70">
-        </a>
-      </div>
+    <section class="product-photos">
+      <h2 class="visually-hidden">Изображения товара</h2>
+      <p class="product-photo-full">
+        <img src="img/product-big.jpg" alt="Фото всего набора" width="460" height="498">
+      </p>
+      <ul class="product-photo-preview">
+        <li>
+          <img src="img/product-small-1.jpg" alt="Фото в анфас" width="140" height="149">
+        </li>
+        <li>
+          <img src="img/product-small-2.jpg" alt="Фото в профиль" width="140" height="149">
+        </li>
+        <li>
+          <img src="img/product-small-3.jpg" alt="Фото отдельной части" width="140" height="149">
+        </li>
+      </ul>
     </section>
 
-    <section class="item-description">
-      <h2 class="visually-hidden">Описание товара:</h2>
-      <p class="item-info">
-        <span class="available">Есть в наличии</span>
-        <span class="item-id">Артикул: Dexter-ae</span>
+    <section class="product-info">
+      <h2 class="visually-hidden">Описание товара</h2>
+      <p class="product-availability">Есть в наличии</p>
+      <p class="product-article">Артикул: Dexter-ae</p>
+      <p class="product-text">
+        Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной
+        кожаной сумке находится все, что нужно для бритья и ухода за кожей во время
+        рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем
+        для бритья, крем после бритья, шампунь. Набор также может стать отличным
+        подарком.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus excepturi unde optio earum aliquam dolorum assumenda quod voluptates ipsam voluptatibus, quis placeat expedita fugit possimus quibusdam totam mollitia porro distinctio inventore ratione ad eveniet! Sint porro eius quod, fugiat consequatur sapiente! Labore facere fuga maiores tenetur repudiandae unde minus neque?
+      <p class="product-price">
+        <b>2 900 р</b>
+        <a class="button" href="#">Купить</a>
       </p>
-      <p class="item-buttons">
-        <span class="item-price">2 900 р</span>
-        <span class="item-buy button">Купить</span>
-      </p>
-      <p class="item-content"><b>В набор входят</b></p>
+      <h3>В набор входят:</h3>
       <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Sint distinctio commodi tempore ullam?</li>
-        <li>Consequatur illo expedita id quos!</li>
-        <li>Corrupti odit earum illo expedita.</li>
-        <li>Neque eius perferendis libero aut?</li>
+        <li>Средство для умывания (50 мл)</li>
+        <li>Увлажняющий крем (50 мл)</li>
+        <li>Крем для бритья (50 мл)</li>
+        <li>Крем после бритья, шампунь (50 мл)</li>
+        <li>Удобная кожаная косметичка</li>
       </ul>
     </section>
   </main>
@@ -130,12 +132,6 @@
     <h2>Личный кабинет</h2>
     <p>Введите свой логин и пароль.</p>
     <!-- Здесь будет форма -->
-    <span class="modal-close">x</span>
-  </section>
-
-  <section class="modal modal-map">
-    <h2 class="visually-hidden">Как до нас добраться</h2>
-    <!-- Здесь будет карта -->
     <span class="modal-close">x</span>
   </section>
 </body>
