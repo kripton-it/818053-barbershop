@@ -9,9 +9,9 @@
 <body>
   <header class="main-header">
     <nav class="main navigation">
-      <a class="main-header-logo">
-        <img src="img/index-logo.svg" alt="Логотип барбершопа «Бородинский»" width="368"
-          height="153">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo.svg" alt="Логотип барбершопа «Бородинский»" width="111"
+          height="24">
       </a>
       <ul class="site-navigation">
         <li>
@@ -23,7 +23,7 @@
         <li>
           <a href="price.html">Прайс-лист</a>
         </li>
-        <li>
+        <li class="site-navigation-current">
           <a href="catalog.html">Магазин</a>
         </li>
         <li>
@@ -39,120 +39,138 @@
   </header>
 
   <main class="container">
-    <h1>
+    <h1 class="page-title">
       Средства для ухода
     </h1>
 
     <ul class="breadcrumbs">
       <li><a href="index.html">Главная</a></li>
-      <li><a href="#">Магазин</a></li>
-      <li>Средства для ухода</li>
+      <li><a href="catalog.html">Магазин</a></li>
+      <li class="breadcrumbs-current">Средства для ухода</li>
     </ul>
 
-    <section class="filter">
-      <h2>Производители:</h2>
-      <!-- Здесь будет форма выбора производителей -->
-      <h2>Группы товаров:</h2>
-      <!-- Здесь будет форма выбора групп товаров -->
-      <button class="button show-button" type="submit">Показать</button>
+    <section class="filters">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <!-- Здесь будет форма -->
     </section>
 
     <section class="catalog">
-      <h2 class="visually-hidden">Результаты поиска</h2>
+      <h2 class="visually-hidden">Список средств для ухода</h2>
       <ul class="catalog-list">
         <li class="catalog-item">
-          <a class="catalog-item-title" href="#">
-            <h3>Набор для путешествий <span class="catalog-item-brand">Baxter of California</span></h3>
-          </a>
-          <a class="catalog-item-image" href="#">
-            <img src="img/catalog-1.jpg" alt="Набор для путешествий Baxter of California" width="150" height="100">
-          </a>
-          <p class="catalog-item-buttons">
-            <span class="catalog-item-price">2 900 р</span>
-            <span class="catalog-item-buy button">Купить</span>
+          <h3>
+            <a href="catalog-item.html">
+              <span class="catalog-category">Набор для путешествий</span>
+              <span class="catalog-item-title">Baxter of California</span>
+            </a>
+          </h3>
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+              <img src="img/product-1.jpg" alt="Набор для путешествий Baxter of California"
+                width="220" height="165">
+            </a>
+          </p>
+          <p class="catalog-item-price">
+            <b>2 900 р</b>
+            <a class="button" href="#">Купить</a>
           </p>
         </li>
         <li class="catalog-item">
-          <a class="catalog-item-title" href="#">
-            <h3>Набор для путешествий
-              <span class="catalog-item-brand">Baxter of California</span>
-            </h3>
-          </a>
-          <a class="catalog-item-image" href="#">
-            <img src="img/catalog-1.jpg" alt="Набор для путешествий Baxter of California"
-              width="150" height="100">
-          </a>
-          <p class="catalog-item-buttons">
-            <span class="catalog-item-price">2 900 р</span>
-            <span class="catalog-item-buy button">Купить</span>
+          <h3>
+            <a href="catalog-item.html">
+              <span class="catalog-category">Набор для путешествий</span>
+              <span class="catalog-item-title">Baxter of California</span>
+            </a>
+          </h3>
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+              <img src="img/product-1.jpg" alt="Набор для путешествий Baxter of California"
+                width="220" height="165">
+            </a>
+          </p>
+          <p class="catalog-item-price">
+            <b>2 900 р</b>
+            <a class="button" href="#">Купить</a>
           </p>
         </li>
         <li class="catalog-item">
-          <a class="catalog-item-title" href="#">
-            <h3>Набор для путешествий
-              <span class="catalog-item-brand">Baxter of California</span>
-            </h3>
-          </a>
-          <a class="catalog-item-image" href="#">
-            <img src="img/catalog-1.jpg" alt="Набор для путешествий Baxter of California"
-              width="150" height="100">
-          </a>
-          <p class="catalog-item-buttons">
-            <span class="catalog-item-price">2 900 р</span>
-            <span class="catalog-item-buy button">Купить</span>
+          <h3>
+            <a href="catalog-item.html">
+              <span class="catalog-category">Набор для путешествий</span>
+              <span class="catalog-item-title">Baxter of California</span>
+            </a>
+          </h3>
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+              <img src="img/product-1.jpg" alt="Набор для путешествий Baxter of California"
+                width="220" height="165">
+            </a>
+          </p>
+          <p class="catalog-item-price">
+            <b>2 900 р</b>
+            <a class="button" href="#">Купить</a>
           </p>
         </li>
         <li class="catalog-item">
-          <a class="catalog-item-title" href="#">
-            <h3>Набор для путешествий
-              <span class="catalog-item-brand">Baxter of California</span>
-            </h3>
-          </a>
-          <a class="catalog-item-image" href="#">
-            <img src="img/catalog-1.jpg" alt="Набор для путешествий Baxter of California"
-              width="150" height="100">
-          </a>
-          <p class="catalog-item-buttons">
-            <span class="catalog-item-price">2 900 р</span>
-            <span class="catalog-item-buy button">Купить</span>
+          <h3>
+            <a href="catalog-item.html">
+              <span class="catalog-category">Набор для путешествий</span>
+              <span class="catalog-item-title">Baxter of California</span>
+            </a>
+          </h3>
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+              <img src="img/product-1.jpg" alt="Набор для путешествий Baxter of California"
+                width="220" height="165">
+            </a>
+          </p>
+          <p class="catalog-item-price">
+            <b>2 900 р</b>
+            <a class="button" href="#">Купить</a>
           </p>
         </li>
         <li class="catalog-item">
-          <a class="catalog-item-title" href="#">
-            <h3>Набор для путешествий
-              <span class="catalog-item-brand">Baxter of California</span>
-            </h3>
-          </a>
-          <a class="catalog-item-image" href="#">
-            <img src="img/catalog-1.jpg" alt="Набор для путешествий Baxter of California"
-              width="150" height="100">
-          </a>
-          <p class="catalog-item-buttons">
-            <span class="catalog-item-price">2 900 р</span>
-            <span class="catalog-item-buy button">Купить</span>
+          <h3>
+            <a href="catalog-item.html">
+              <span class="catalog-category">Набор для путешествий</span>
+              <span class="catalog-item-title">Baxter of California</span>
+            </a>
+          </h3>
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+              <img src="img/product-1.jpg" alt="Набор для путешествий Baxter of California"
+                width="220" height="165">
+            </a>
+          </p>
+          <p class="catalog-item-price">
+            <b>2 900 р</b>
+            <a class="button" href="#">Купить</a>
           </p>
         </li>
         <li class="catalog-item">
-          <a class="catalog-item-title" href="#">
-            <h3>Набор для путешествий
-              <span class="catalog-item-brand">Baxter of California</span>
-            </h3>
-          </a>
-          <a class="catalog-item-image" href="#">
-            <img src="img/catalog-1.jpg" alt="Набор для путешествий Baxter of California"
-              width="150" height="100">
-          </a>
-          <p class="catalog-item-buttons">
-            <span class="catalog-item-price">2 900 р</span>
-            <span class="catalog-item-buy button">Купить</span>
+          <h3>
+            <a href="catalog-item.html">
+              <span class="catalog-category">Набор для путешествий</span>
+              <span class="catalog-item-title">Baxter of California</span>
+            </a>
+          </h3>
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+              <img src="img/product-1.jpg" alt="Набор для путешествий Baxter of California"
+                width="220" height="165">
+            </a>
+          </p>
+          <p class="catalog-item-price">
+            <b>2 900 р</b>
+            <a class="button" href="#">Купить</a>
           </p>
         </li>
       </ul>
-      <ul class="catalog-pagination">
-        <li><a href="#">1</a></li>
-        <li><a>2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
+      <ul class="pagination-list">
+        <li class="pagination-item"><a href="#">1</a></li>
+        <li class="pagination-item pagination-item-current"><a>2</a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#">4</a></li>
       </ul>
     </section>
   </main>
@@ -189,12 +207,6 @@
     <h2>Личный кабинет</h2>
     <p>Введите свой логин и пароль.</p>
     <!-- Здесь будет форма -->
-    <span class="modal-close">x</span>
-  </section>
-
-  <section class="modal modal-map">
-    <h2 class="visually-hidden">Как до нас добраться</h2>
-    <!-- Здесь будет карта -->
     <span class="modal-close">x</span>
   </section>
 </body>
