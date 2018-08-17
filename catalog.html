@@ -10,8 +10,7 @@
   <header class="main-header">
     <nav class="main navigation">
       <a class="main-header-logo" href="index.html">
-        <img src="img/logo.svg" alt="Логотип барбершопа «Бородинский»" width="111"
-          height="24">
+        <img src="img/logo.svg" alt="Логотип барбершопа «Бородинский»" width="111" height="24">
       </a>
       <ul class="site-navigation">
         <li>
@@ -44,14 +43,93 @@
     </h1>
 
     <ul class="breadcrumbs">
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="catalog.html">Магазин</a></li>
+      <li>
+        <a href="index.html">Главная</a>
+      </li>
+      <li>
+        <a href="catalog.html">Магазин</a>
+      </li>
       <li class="breadcrumbs-current">Средства для ухода</li>
     </ul>
 
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
-      <!-- Здесь будет форма -->
+      <form class="filters-form" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset class="filters-brands">
+          <legeng>Производители:</legeng>
+          <ul class="filters-list">
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="baxter-of-california" checked>
+                <span class="checkbox-indicator"></span>
+                <span class="checkbox-label">Baxter of California</span>
+              </label>
+            </li>
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="mr-natty">
+                <span class="checkbox-indicator"></span>
+                <span class="checkbox-label">Mr Natty</span>
+              </label>
+            </li>
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="suavecito" checked>
+                <span class="checkbox-indicator"></span>
+                <span class="checkbox-label">Suavecito</span>
+              </label>
+            </li>
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="malin+goetz">
+                <span class="checkbox-indicator"></span>
+                <span class="checkbox-label">Malin+Goetz</span>
+              </label>
+            </li>
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="murray's">
+                <span class="checkbox-indicator"></span>
+                <span class="checkbox-label">Murray's</span>
+              </label>
+            </li>
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="american-crew" checked>
+                <span class="checkbox-indicator"></span>
+                <span class="checkbox-label">American crew</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="filters-groups">
+          <legeng>Группы товаров:</legeng>
+          <ul class="filters-list">
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="radio" name="product-group" value="shaving">
+                <span class="radio-indicator"></span>
+                <span class="radio-label">Бритвенные принадлежности</span>
+              </label>
+            </li>
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="radio" name="product-group" value="hair-care" checked>
+                <span class="radio-indicator"></span>
+                <span class="radio-label">Средства для ухода</span>
+              </label>
+            </li>
+            <li class="filters-item">
+              <label>
+                <input class="visually-hidden" type="radio" name="product-group" value="accessories">
+                <span class="radio-indicator"></span>
+                <span class="radio-label">Аксессуары</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="button filters-button" type="submit">Показать</button>
+      </form>
     </section>
 
     <section class="catalog">
@@ -161,10 +239,18 @@
         </li>
       </ul>
       <ul class="pagination-list">
-        <li class="pagination-item"><a href="#">1</a></li>
-        <li class="pagination-item pagination-item-current"><a>2</a></li>
-        <li class="pagination-item"><a href="#">3</a></li>
-        <li class="pagination-item"><a href="#">4</a></li>
+        <li class="pagination-item">
+          <a href="#">1</a>
+        </li>
+        <li class="pagination-item pagination-item-current">
+          <a>2</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#">3</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#">4</a>
+        </li>
       </ul>
     </section>
   </main>
