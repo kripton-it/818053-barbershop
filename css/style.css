@@ -19,6 +19,15 @@ body {
   background-position: top center;
 }
 
+.inner-page {
+  color: #000000;
+
+  background-color: #f9f6f3;
+  background-image: url("../img/bg-section.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
 a {
   text-decoration: none;
 }
