@@ -14,3 +14,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
+
+a {
+  text-decoration: none;
+}
