@@ -24,20 +24,21 @@ a {
 }
 
 .button {
-	font: inherit;
-	text-align: center;
-	color: #ffffff;
-	vertical-align: middle;
-	text-transform: uppercase;
-	background-color: #000000;
-	border: none;
-	cursor: pointer;
+  font: inherit;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-	background-color: #663d15;
+  background-color: #663d15;
 }
 
 /* 1.2 базовая стилизация шапки */
@@ -126,4 +127,48 @@ a {
 
 .appointment-item input:focus {
   border-color: #663d15;
+}
+
+/* 1.5 базовая стилизация подвала */
+
+.main-footer {
+  color: #ffffff;
+
+  background-color: #212121;
+  background-image: url("../img/bg-footer.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
 }
