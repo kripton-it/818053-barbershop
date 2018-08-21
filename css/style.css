@@ -230,10 +230,14 @@ a {
 
 /* 1.7 базовая стилизация внутренних страниц */
 
+/* 1.7.1 базовая стилизация заголовка */
+
 .page-title {
   font-size: 30px;
   line-height: 42px;
 }
+
+/* 1.7.2 базовая стилизация хлебных крошек */
 
 .breadcrumbs {
   list-style: none;
@@ -250,4 +254,31 @@ a {
 
 .breadcrumbs-current {
   color: #aba9a7;
+}
+
+/* 1.7.3 базовая стилизация фильтра товаров */
+
+.filters-form fieldset {
+  border: none;
+}
+
+.filters-form legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filters-form ul {
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+  color: #663d15;
+}
+
+.filter-input:disabled + label {
+  color: #000000;
+
+  opacity: 0.5;
 }
