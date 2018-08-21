@@ -1,3 +1,7 @@
+/* 1 базовая стилизация */
+
+/* 1.1 общие стили */
+
 body {
   margin: 0;
   padding: 0;
@@ -18,6 +22,8 @@ body {
 a {
   text-decoration: none;
 }
+
+/* 1.2 базовая стилизация шапки */
 
 .main-navigation {
   font-size: 16px;
@@ -43,3 +49,20 @@ a {
 .user-navigation a:focus {
   background-color: #242424;
 }
+
+/* 1.3 базовая стилизация раздела преимуществ */
+
+.features-list {
+	list-style: none;
+}
+
+.feature-item {
+	text-align: center;
+}
+
+.feature-item h3 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+
