@@ -172,3 +172,51 @@ a {
 
   background-color: #ffffff;
 }
+
+/* 1.6 базовая стилизация модального окна */
+
+.modal {
+  color: #000000;
+
+  background-color: #f8f3f0;
+  background-image: url("../img/bg-section.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* 1.6.1 базовая стилизация формы авторизации */
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15;
+}
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
