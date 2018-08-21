@@ -53,16 +53,60 @@ a {
 /* 1.3 базовая стилизация раздела преимуществ */
 
 .features-list {
-	list-style: none;
+  list-style: none;
 }
 
 .feature-item {
-	text-align: center;
+  text-align: center;
 }
 
 .feature-item h3 {
-	font-size: 30px;
-	line-height: 42px;
+  font-size: 30px;
+  line-height: 42px;
 }
 
+/* 1.4 базовая стилизация разделов "Новости", "Фотогалерея", "Контакты" и "Записаться" */
 
+.index-columns {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url("../img/bg-section.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* 1.4.1 базовая стилизация раздела "Новости" */
+
+.news-list {
+  list-style: none;
+}
+
+.news-item time {
+  text-transform: none;
+}
+
+/* 1.4.2 базовая стилизация раздела "Фотогалерея" */
+
+.gallery-content {
+  background-color: #e5e5e5;
+  border: 7px solid #ffffff;
+}
+
+/* 1.4.3 базовая стилизация раздела "Записаться" */
+
+.appointment-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+  border-color: #663d15;
+}
