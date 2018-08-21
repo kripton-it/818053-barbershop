@@ -283,6 +283,8 @@ a {
   opacity: 0.5;
 }
 
+/* 1.7.4 базовая стилизация карточек каталога */
+
 .catalog-list {
   list-style: none;
 }
@@ -320,4 +322,36 @@ a {
 .catalog-item-price .button {
   line-height: 20px;
   color: #ffffff;
+}
+
+/* 1.7.5 базовая стилизация счетчика страниц */
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: #663d15;
+}
+
+.pagination-item-current a {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+
+  background-color: #ffffff;
 }
