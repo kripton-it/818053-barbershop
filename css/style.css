@@ -459,6 +459,7 @@ body {
 }
 
 .inner-page .main-navigation {
+  flex-wrap: nowrap;
   /* временно для сетки */
   min-height: 70px;
 }
