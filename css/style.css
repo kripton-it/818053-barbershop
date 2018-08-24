@@ -416,6 +416,7 @@ body {
 
 .main-navigation {
   background-color: transparent;
+  display: flex;
   /* временно для сетки */
   min-height: 285px;
 }
@@ -423,9 +424,7 @@ body {
 .main-header-logo {
   width: 368px;
   height: 153px;
-
-  /* временно для сетки */
-  display: block;
+  order: 1;
 }
 
 .site-navigation {
