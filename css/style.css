@@ -420,4 +420,26 @@ body {
   min-height: 285px;
 }
 
+.main-header-logo {
+  width: 368px;
+  height: 153px;
+
+  /* временно для сетки */
+  display: block;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  /* временно для сетки */
+  min-height: 70px;
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
+  /* временно для сетки */
+  min-height: 70px;
+}
+
 
