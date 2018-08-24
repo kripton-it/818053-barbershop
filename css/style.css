@@ -673,3 +673,19 @@ body {
   min-height: 47px;
 }
 
+/* 2.8 сетка страницы товара */
+
+.product-photos {
+  width: 460px;
+
+  /* временно для сетки */
+  min-height: 677px;
+}
+
+.product-info {
+  width: 390px;
+
+  /* временно для сетки */
+  min-height: 677px;
+}
+
