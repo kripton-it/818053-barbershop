@@ -28,6 +28,20 @@ body {
   background-position: 0 0;
 }
 
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+}
+
 a {
   text-decoration: none;
 }
@@ -404,12 +418,6 @@ a {
 
 /* 2.1 вспомогательные стили */
 
-html,
-body {
-  /* min-width: 1122px; */
-  min-height: 1750px;
-}
-
 .container {
   width: 940px;
   margin: 0 auto;
@@ -420,17 +428,10 @@ body {
 
 .main-header {
   margin-bottom: 75px;
-
-  /* временно для сетки */
-  min-height: 285px;
 }
 
 .inner-page .main-header {
   margin-bottom: 50px;
-
-  /* временно для сетки */
-  min-height: 70px;
-  background-color: transparent;
 }
 
 .main-navigation {
@@ -440,14 +441,10 @@ body {
   justify-content: center;
   align-items: flex-start;
   align-content: space-between;
-  /* временно для сетки */
-  min-height: 285px;
 }
 
 .inner-page .main-navigation {
   flex-wrap: nowrap;
-  /* временно для сетки */
-  min-height: 70px;
 }
 
 .main-header-logo {
@@ -468,16 +465,12 @@ body {
   margin: 0;
   padding: 0;
   margin-right: auto;
-  /* временно для сетки */
-  min-height: 70px;
 }
 
 .user-navigation {
   width: 140px;
   margin: 0;
   padding: 0;
-  /* временно для сетки */
-  min-height: 70px;
 }
 
 /* 2.3 сетка раздела преимуществ */
@@ -495,8 +488,6 @@ body {
 
 .feature-item {
   width: 300px;
-  /* временно для сетки */
-  min-height: 170px;
 }
 
 /* 2.4 сетка разделов "Новости", "Фотогалерея", "Контакты" и "Записаться" */
@@ -506,33 +497,22 @@ body {
   justify-content: space-between;
   padding: 50px 80px;
   margin-bottom: 35px;
-  /* временно для сетки */
-  background-image: none;
-  background-color: transparent;
 }
 
 .news {
   width: 380px;
-  /* временно для сетки */
-  min-height: 315px;
 }
 
 .gallery {
   width: 300px;
-  /* временно для сетки */
-  min-height: 315px;
 }
 
 .contacts {
   width: 380px;
-  /* временно для сетки */
-  min-height: 295px;
 }
 
 .appointment {
   width: 300px;
-  /* временно для сетки */
-  min-height: 340px;
 }
 
 /* 2.5 сетка подвала */
@@ -543,9 +523,6 @@ body {
   padding-bottom: 30px;
   display: flex;
   align-items: flex-start;
-
-  /* временно для сетки */
-  background: none;
 }
 
 .inner-page .main-footer {
@@ -556,27 +533,18 @@ body {
   margin: 0;
   margin-left: auto;
   width: 320px;
-
-  /* временно для сетки */
-  min-height: 100px;
 }
 
 .footer-social {
   width: 145px;
   margin-left: 80px;
   margin-right: 245px;
-
-  /* временно для сетки */
-  min-height: 100px;
 }
 
 .footer-copyright {
   width: 150px;
   margin: 0;
   margin-right: auto;
-
-  /* временно для сетки */
-  min-height: 100px;
 }
 
 /* 2.7 сетка страницы каталога */
@@ -587,9 +555,6 @@ body {
   margin: 0;
   margin-bottom: 15px;
   padding: 0;
-
-  /* временно для сетки */
-  min-height: 42px;
 }
 
 /* 2.7.2 сетка хлебных крошек */
@@ -598,9 +563,6 @@ body {
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
-
-  /* временно для сетки */
-  min-height: 24px;
 }
 
 /* 2.7.3 сетка фильтра товаров */
@@ -612,18 +574,12 @@ body {
 
 .filters {
   width: 180px;
-
-  /* временно для сетки */
-  min-height: 687px;
 }
 
 /* 2.7.4 сетка каталога товаров */
 
 .catalog {
   width: 700px;
-
-  /* временно для сетки */
-  min-height: 687px;
 }
 
 .catalog-list {
@@ -638,11 +594,6 @@ body {
   width: 220px;
   margin-bottom: 20px;
   margin-right: 20px;
-
-  /* временно для сетки */
-  min-height: 285px;
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px purple;
 }
 
 .catalog-item:nth-child(3n) {
@@ -654,24 +605,15 @@ body {
 .pagination-list {
   margin: 0;
   padding: 0;
-
-  /* временно для сетки */
-  min-height: 47px;
 }
 
 /* 2.8 сетка страницы товара */
 
 .product-photos {
   width: 460px;
-
-  /* временно для сетки */
-  min-height: 677px;
 }
 
 .product-info {
   width: 390px;
-
-  /* временно для сетки */
-  min-height: 677px;
 }
 
