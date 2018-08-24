@@ -414,4 +414,10 @@ body {
   min-height: 285px;
 }
 
+.main-navigation {
+  background-color: transparent;
+  /* временно для сетки */
+  min-height: 285px;
+}
+
 
