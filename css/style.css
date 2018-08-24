@@ -418,6 +418,8 @@ body {
   padding: 0 10px;
 }
 
+/* 2.2 сетка шапки */
+
 .main-header {
   margin-bottom: 75px;
 
@@ -457,6 +459,16 @@ body {
   padding: 0;
   /* временно для сетки */
   min-height: 70px;
+}
+
+/* 2.3 сетка раздела преимуществ */
+
+.features-list {
+  margin: 0;
+  padding: 0;
+
+  /* временно для сетки */
+  min-height: 170px;
 }
 
 
