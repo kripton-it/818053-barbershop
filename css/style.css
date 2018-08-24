@@ -463,6 +463,10 @@ body {
 
 /* 2.3 сетка раздела преимуществ */
 
+.features {
+  margin-bottom: 80px;
+}
+
 .features-list {
   display: flex;
   justify-content: space-between;
@@ -475,5 +479,7 @@ body {
   /* временно для сетки */
   min-height: 170px;
 }
+
+
 
 
