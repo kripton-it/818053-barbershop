@@ -562,6 +562,10 @@ body {
   background: none;
 }
 
+.inner-page .main-footer {
+  margin-top: 45px;
+}
+
 .footer-contacts {
   margin: 0;
   margin-left: auto;
