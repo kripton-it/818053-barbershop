@@ -57,6 +57,11 @@ a {
   background-image: linear-gradient(to bottom, #000000 70px, transparent 70px);
 }
 
+.inner-page .main-header {
+  background-color: #000000;
+  background-image: none;
+}
+
 .main-navigation {
   font-size: 16px;
   line-height: 20px;
@@ -448,6 +453,11 @@ body {
   align-content: space-between;
   /* временно для сетки */
   min-height: 285px;
+}
+
+.inner-page .main-navigation {
+  /* временно для сетки */
+  min-height: 70px;
 }
 
 .main-header-logo {
