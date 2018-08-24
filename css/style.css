@@ -410,20 +410,6 @@ body {
   min-height: 1750px;
 }
 
-body {
-  /* временно для сетки */
-  background-image: url("../img/barbershop-index.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
-.inner-page {
-  /* временно для сетки */
-  background-image: url("../img/barbershop-item.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
 .container {
   width: 940px;
   margin: 0 auto;
