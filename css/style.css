@@ -520,15 +520,18 @@ body {
 
 .main-footer {
   margin-top: 65px;
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
 
   /* временно для сетки */
-  min-height: 180px;
   background: none;
 }
 
 .footer-contacts {
   margin: 0;
+  margin-left: auto;
   width: 320px;
 
   /* временно для сетки */
@@ -537,6 +540,8 @@ body {
 
 .footer-social {
   width: 145px;
+  margin-left: 80px;
+  margin-right: 245px;
 
   /* временно для сетки */
   min-height: 100px;
@@ -545,6 +550,7 @@ body {
 .footer-copyright {
   width: 150px;
   margin: 0;
+  margin-right: auto;
 
   /* временно для сетки */
   min-height: 100px;
