@@ -483,7 +483,10 @@ body {
 /* 2.4 сетка разделов "Новости", "Фотогалерея", "Контакты" и "Записаться" */
 
 .index-columns {
+  display: flex;
+  justify-content: space-between;
   padding: 50px 80px;
+  margin-bottom: 35px;
   /* временно для сетки */
   background-image: none;
   background-color: transparent;
@@ -499,6 +502,18 @@ body {
   width: 300px;
   /* временно для сетки */
   min-height: 315px;
+}
+
+.contacts {
+  width: 380px;
+  /* временно для сетки */
+  min-height: 295px;
+}
+
+.appointment {
+  width: 300px;
+  /* временно для сетки */
+  min-height: 340px;
 }
 
 
