@@ -466,7 +466,9 @@ body {
 .features-list {
   margin: 0;
   padding: 0;
+}
 
+.feature-item {
   /* временно для сетки */
   min-height: 170px;
 }
