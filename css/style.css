@@ -601,3 +601,14 @@ body {
   /* временно для сетки */
   min-height: 42px;
 }
+
+/* 2.7.2 сетка хлебных крошек */
+
+.breadcrumbs {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+
+  /* временно для сетки */
+  min-height: 24px;
+}
