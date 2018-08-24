@@ -480,6 +480,25 @@ body {
   min-height: 170px;
 }
 
+/* 2.4 сетка разделов "Новости", "Фотогалерея", "Контакты" и "Записаться" */
 
+.index-columns {
+  padding: 50px 80px;
+  /* временно для сетки */
+  background-image: none;
+  background-color: transparent;
+}
+
+.news {
+  width: 380px;
+  /* временно для сетки */
+  min-height: 315px;
+}
+
+.gallery {
+  width: 300px;
+  /* временно для сетки */
+  min-height: 315px;
+}
 
 
