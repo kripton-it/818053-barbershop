@@ -408,7 +408,12 @@ body {
 body {
   /* временно для сетки */
   background-image: url("../img/barbershop-index.jpg");
-  /* background-size: 1372px auto; */
+  background-repeat: no-repeat;
+}
+
+.inner-page {
+  /* временно для сетки */
+  background-image: url("../img/barbershop-shop.jpg");
   background-repeat: no-repeat;
 }
 
@@ -425,6 +430,13 @@ body {
 
   /* временно для сетки */
   min-height: 285px;
+}
+
+.inner-page .main-header {
+  margin-bottom: 50px;
+
+  /* временно для сетки */
+  min-height: 70px;
 }
 
 .main-navigation {
