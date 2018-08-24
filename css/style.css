@@ -630,3 +630,10 @@ body {
   /* временно для сетки */
   min-height: 687px;
 }
+
+/* 2.7.5 сетка "Фильтр + Каталог" */
+
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
