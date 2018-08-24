@@ -417,6 +417,8 @@ body {
 .main-navigation {
   background-color: transparent;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   /* временно для сетки */
   min-height: 285px;
 }
