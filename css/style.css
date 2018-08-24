@@ -390,4 +390,21 @@ a {
 	list-style: none;
 }
 
+/* 2 сетка */
+
+/* 2.1 вспомогательные стили */
+
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+}
+
+body {
+  /* временно для сетки */
+  background-image: url("../img/barbershop-index.jpg");
+  background-size: 1372px auto;
+  background-repeat: no-repeat;
+}
+
 
