@@ -446,6 +446,7 @@ body {
   width: 620px;
   margin: 0;
   padding: 0;
+  margin-right: auto;
   /* временно для сетки */
   min-height: 70px;
 }
