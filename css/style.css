@@ -516,4 +516,32 @@ body {
   min-height: 340px;
 }
 
+/* 2.5 сетка подвала */
 
+.main-footer {
+  margin-top: 65px;
+
+  /* временно для сетки */
+  min-height: 180px;
+  background: none;
+}
+
+.footer-contacts {
+  margin: 0;
+
+  /* временно для сетки */
+  min-height: 100px;
+}
+
+.footer-social {
+
+  /* временно для сетки */
+  min-height: 100px;
+}
+
+.footer-copyright {
+  margin: 0;
+
+  /* временно для сетки */
+  min-height: 100px;
+}
