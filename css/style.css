@@ -419,7 +419,7 @@ body {
 
 .inner-page {
   /* временно для сетки */
-  background-image: url("../img/barbershop-shop.jpg");
+  background-image: url("../img/barbershop-item.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
