@@ -464,11 +464,14 @@ body {
 /* 2.3 сетка раздела преимуществ */
 
 .features-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
 
 .feature-item {
+  width: 300px;
   /* временно для сетки */
   min-height: 170px;
 }
