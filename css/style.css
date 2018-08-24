@@ -615,6 +615,11 @@ body {
 
 /* 2.7.3 сетка фильтра товаров */
 
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
 .filters {
   width: 180px;
 
@@ -635,6 +640,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  margin-bottom: 30px;
   padding: 0;
 }
 
@@ -653,10 +659,13 @@ body {
   margin-right: 0;
 }
 
-/* 2.7.5 сетка "Фильтр + Каталог" */
+/* 2.7.5 базовая стилизация счетчика страниц */
 
-.catalog-columns {
-  display: flex;
-  justify-content: space-between;
+.pagination-list {
+  margin: 0;
+  padding: 0;
+
+  /* временно для сетки */
+  min-height: 47px;
 }
 
