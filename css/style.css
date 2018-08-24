@@ -413,12 +413,14 @@ body {
 body {
   /* временно для сетки */
   background-image: url("../img/barbershop-index.jpg");
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
 .inner-page {
   /* временно для сетки */
   background-image: url("../img/barbershop-shop.jpg");
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -442,6 +444,7 @@ body {
 
   /* временно для сетки */
   min-height: 70px;
+  background-color: transparent;
 }
 
 .main-navigation {
@@ -464,6 +467,13 @@ body {
   width: 368px;
   height: 153px;
   order: 1;
+}
+
+.inner-page .main-header-logo {
+  width: 111px;
+  height: 24px;
+  padding: 23px 20px;
+  order: 0;
 }
 
 .site-navigation {
