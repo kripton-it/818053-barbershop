@@ -52,6 +52,11 @@ a {
 
 /* 1.2 базовая стилизация шапки */
 
+.main-header {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #000000 70px, transparent 70px);
+}
+
 .main-navigation {
   font-size: 16px;
   line-height: 20px;
@@ -402,9 +407,15 @@ body {
 
 body {
   /* временно для сетки */
-  background-image: url("../img/barbershop-index.jpg");
+  /* background-image: url("../img/barbershop-index.jpg"); */
   /* background-size: 1372px auto; */
   background-repeat: no-repeat;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .main-header {
@@ -417,8 +428,10 @@ body {
 .main-navigation {
   background-color: transparent;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+  align-content: space-between;
   /* временно для сетки */
   min-height: 285px;
 }
