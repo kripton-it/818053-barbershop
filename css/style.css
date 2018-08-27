@@ -709,6 +709,46 @@ img {
   margin: 0 10px;
 }
 
-/* 3.4 контент */
+/* 3.4 новости */
+
+.news {
+  /* временно  */
+  background: rgba(0, 128, 0, 0.2);
+  outline: 2px solid green;
+}
+
+.index-columns h2 {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.news-list {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.news-item {
+  margin-bottom: 25px;
+}
+
+.news-item p {
+  margin: 0;
+}
+
+/* 3.5 оформление кнопок */
+
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-right: 16px;
+}
+
+.button.disabled,
+.button:disabled {
+  cursor: default;
+  opacity: 0.5;
+  background-color: #000000;
+}
 
 
