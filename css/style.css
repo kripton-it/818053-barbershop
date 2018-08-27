@@ -130,9 +130,9 @@ img {
   color: #000000;
 
   background-color: #f8f5f2;
-  background-image: url("../img/bg-section.jpg");
-  background-repeat: repeat;
-  background-position: 0 0;
+  background-image: url("../img/bg-shadow.png"), url("../img/bg-section.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center, 0 0;
 }
 
 .index-columns h2 {
@@ -708,3 +708,7 @@ img {
 .feature-item p {
   margin: 0 10px;
 }
+
+/* 3.4 контент */
+
+
