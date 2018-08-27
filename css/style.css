@@ -476,7 +476,7 @@ img {
 }
 
 .user-navigation {
-  width: 140px;
+  max-width: 140px;
   margin: 0;
   padding: 0;
 }
@@ -637,9 +637,39 @@ img {
   outline: 2px solid rgb(234, 255, 45);
 }
 
+.user-navigation {
+  display: flex;
+}
+
 .site-navigation a,
 .user-navigation a {
   display: block;
   padding: 25px 20px;
 }
 
+.user-navigation .login-link {
+  padding-left: 50px;
+  position: relative;
+  /* временно  */
+  background: rgba(234, 255, 45, 0.2);
+  outline: 2px solid rgb(234, 255, 45);
+}
+
+.user-navigation .login-link::before {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: 24px;
+  width: 16px;
+  height: 18px;
+  background-image: url("../img/icon-login.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.3;
+}
+
+.user-navigation .login-link:hover::before,
+.user-navigation .login-link:focus::before,
+.user-navigation .login-link:active::before {
+  opacity: 1;
+}
