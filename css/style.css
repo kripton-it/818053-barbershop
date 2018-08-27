@@ -625,3 +625,21 @@ img {
   width: 390px;
 }
 
+/* 3 декоративные элементы */
+
+/* 3.1 главное меню */
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  /* временно  */
+  background: rgba(234, 255, 45, 0.2);
+  outline: 2px solid rgb(234, 255, 45);
+}
+
+.site-navigation a,
+.user-navigation a {
+  display: block;
+  padding: 25px 20px;
+}
+
