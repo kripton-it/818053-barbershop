@@ -873,3 +873,14 @@ img {
   margin-bottom: 15px;
 }
 
+/* 3.10 копирайт в подвале */
+
+.footer-copyright b {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-copyright .button {
+  display: block;
+  margin-right: 0;
+}
