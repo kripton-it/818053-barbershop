@@ -981,3 +981,45 @@ img {
   background-color: #000000;
   border-radius: 50%;
 }
+
+/* 3.13 карточка товара */
+
+.catalog-item a {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-item h3 {
+  order: 1;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+  margin-right: 15px;
+}
+
+.catalog-category {
+  display: block;
+}
+
+.catalog-item-image {
+  width: 220px;
+  height: 165px;
+  margin: 0;
+}
+
+.catalog-item-price {
+  display: flex;
+  margin: 15px;
+  margin-top: 0;
+}
+
+.catalog-item-price b {
+width: 112px;
+padding: 13px 25px 11px;
+}
+
+.catalog-item-price .button {
+  width: 50px;
+  padding: 13px 18px 11px;
+  margin-right: 0;
+}
