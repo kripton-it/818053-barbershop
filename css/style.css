@@ -1023,3 +1023,23 @@ padding: 13px 25px 11px;
   padding: 13px 18px 11px;
   margin-right: 0;
 }
+
+/* 3.14 счетчик страниц */
+
+.pagination-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination-item {
+  margin-right: 5px;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
+}
+
+.pagination-item a {
+  display: block;
+  padding: 10px 19px;
+}
