@@ -632,9 +632,6 @@ img {
 .site-navigation {
   display: flex;
   flex-wrap: wrap;
-  /* временно  */
-  background: rgba(234, 255, 45, 0.2);
-  outline: 2px solid rgb(234, 255, 45);
 }
 
 .user-navigation {
@@ -652,9 +649,6 @@ img {
 .user-navigation .login-link {
   padding-left: 50px;
   position: relative;
-  /* временно  */
-  background: rgba(234, 255, 45, 0.2);
-  outline: 2px solid rgb(234, 255, 45);
 }
 
 .user-navigation .login-link::before {
@@ -678,18 +672,10 @@ img {
 
 /* 3.3 преимущества */
 
-.feature-item {
-  /* временно  */
-  background: rgba(255, 45, 82, 0.2);
-  outline: 2px solid rgb(255, 45, 82);
-}
-
 .feature-item h3 {
   margin: 0;
   margin-bottom: 60px;
   position: relative;
-  /* временно  */
-  background: rgba(255, 45, 82, 0.5);
 }
 
 .feature-item h3::after {
@@ -710,12 +696,6 @@ img {
 }
 
 /* 3.4 новости */
-
-.news {
-  /* временно  */
-  background: rgba(0, 128, 0, 0.2);
-  outline: 2px solid green;
-}
 
 .index-columns h2 {
   margin: 0;
@@ -756,9 +736,6 @@ img {
 .gallery-container {
   position: relative;
   height: 260px;
-  /* временно  */
-  background: rgba(255, 45, 82, 0.2);
-  outline: 2px solid rgb(255, 45, 82);
 }
 
 .gallery-content {
@@ -811,9 +788,6 @@ img {
   width: 140px;
   margin: 0;
   margin-bottom: 10px;
-  /* временно  */
-  background: rgba(234, 255, 45, 0.2);
-  outline: 2px solid rgb(234, 255, 45);
 }
 
 .appointment-item label {
