@@ -751,4 +751,40 @@ img {
   background-color: #000000;
 }
 
+/* 3.6 галерея */
+
+.gallery-container {
+  position: relative;
+  height: 260px;
+  /* временно  */
+  background: rgba(255, 45, 82, 0.2);
+  outline: 2px solid rgb(255, 45, 82);
+}
+
+.gallery-content {
+  height: 164px;
+  margin: 0;
+}
+
+.gallery-content img {
+  width: 286px;
+  height: 164px;
+}
+
+.gallery-button {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 140px;
+  margin: 0;
+}
+
+.gallery-button-back {
+  left: 0;
+}
+
+.gallery-button-next {
+  right: 0;
+}
+
 
