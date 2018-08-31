@@ -1433,8 +1433,6 @@ img {
 /* 3.17.3 нестандартный список */
 
 .custom-list-1 {
-  background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
   margin: 14px 0;
   padding: 0;
   list-style: none;
@@ -1456,3 +1454,20 @@ img {
   background-color: #000000;
   transform: rotate(45deg);
 }
+
+/* 3.17.4 нестандартная таблица */
+
+.custom-table-1 {
+  width: 100%;
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+.custom-table-1 td {
+  width: 50%;
+}
+
+.custom-table-1 td:last-child {
+  text-align: center;
+}
+
