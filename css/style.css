@@ -1350,3 +1350,9 @@ img {
 .modal-map p {
   margin: 0;
 }
+
+/* 3.17 контент */
+
+.inner-page-container {
+  margin-bottom: 55px;
+}
