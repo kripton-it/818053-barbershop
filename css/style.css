@@ -1399,3 +1399,33 @@ img {
 
   border: 2px solid #000000;
 }
+
+/* 3.17.2 нестандартный заголовок */
+
+.inner-content .big-heading {
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 65px;
+}
+
+.inner-content .big-heading::before,
+.inner-content .big-heading::after {
+  content: "";
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.inner-content .big-heading::before {
+  margin-right: 25px;
+}
+
+.inner-content .big-heading::after {
+  margin-left: 25px;
+}
