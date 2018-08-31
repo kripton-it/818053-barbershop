@@ -111,6 +111,24 @@ img {
   background-color: #242424;
 }
 
+.site-navigation-current {
+  position: relative;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: #000000;
+}
+
+.site-navigation-current::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
 /* 1.3 базовая стилизация раздела преимуществ */
 
 .features-list {
@@ -181,6 +199,14 @@ img {
   background-image: url("../img/bg-footer.jpg");
   background-repeat: repeat;
   background-position: 0 0;
+}
+
+.inner-page .main-footer {
+  background-image:
+    linear-gradient(to bottom, #000000, transparent),
+    url("../img/bg-footer.jpg");
+  background-size: 10px 40px, auto;
+  background-repeat: repeat-x, repeat;
 }
 
 .footer-contacts a {
