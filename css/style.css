@@ -125,7 +125,9 @@ img {
   right: 20px;
   bottom: 0;
   left: 20px;
+
   height: 5px;
+
   background-color: #ffffff;
 }
 
@@ -202,11 +204,10 @@ img {
 }
 
 .inner-page .main-footer {
-  background-image:
-    linear-gradient(to bottom, #000000, transparent),
-    url("../img/bg-footer.jpg");
-  background-size: 10px 40px, auto;
+  background-image: linear-gradient(to bottom, #000000, transparent),
+  url("../img/bg-footer.jpg");
   background-repeat: repeat-x, repeat;
+  background-size: 10px 40px, auto;
 }
 
 .footer-contacts a {
@@ -1351,8 +1352,50 @@ img {
   margin: 0;
 }
 
-/* 3.17 контент */
+/* 3.17 контентная страница */
 
 .inner-page-container {
   margin-bottom: 55px;
+}
+
+.inner-content {
+  margin-bottom: 75px;
+}
+
+/* 3.17.1 вертикальный ритм */
+
+.inner-content h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.inner-content h3 {
+  /* на макете нет, на всякий случай */
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.inner-content h2 + h3 {
+  /* на макете нет, на всякий случай */
+  margin-top: 30px;
+}
+
+.inner-content p {
+  margin: 14px 0;
+}
+
+.inner-content table {
+  border-collapse: collapse;
+}
+
+.inner-content td {
+  padding: 10px 15px;
+
+  border: 2px solid #000000;
 }
