@@ -232,6 +232,7 @@
     var form = popup.querySelector("form");
     var login = form.querySelector("[name=login");
     var password = form.querySelector("[name=password");
+    var loginStorage = localStorage.getItem("login");
     link.addEventListener("click", function (evt) {
       evt.preventDefault();
       popup.classList.add("modal-show");
