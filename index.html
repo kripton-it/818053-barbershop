@@ -260,6 +260,7 @@
     close.addEventListener("click", function (evt) {
       evt.preventDefault();
       popup.classList.remove("modal-show");
+      popup.classList.remove("modal-error");
     });
 
     window.addEventListener("keydown", function (evt) {
@@ -267,6 +268,7 @@
         if (popup.classList.contains("modal-show")) {
           evt.preventDefault();
           popup.classList.remove("modal-show");
+          popup.classList.remove("modal-error");
         }
       }
     });
@@ -274,7 +276,7 @@
     form.addEventListener("submit", function (evt) {
       if (!(login.value && password.value)) {
         evt.preventDefault();
-        console.log("Форма не отправлена");
+        popup.classList.add("modal-error");
       } else {
         if (isStorageSupport) {
           localStorage.setItem("login", login.value);
