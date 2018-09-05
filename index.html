@@ -53,7 +53,8 @@
       <ul class="features-list">
         <li class="feature-item">
           <h3>Быстро</h3>
-          <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+          <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной
+            стрижки-минутки!</p>
         </li>
         <li class="feature-item">
           <h3>Круто</h3>
@@ -61,7 +62,8 @@
         </li>
         <li class="feature-item">
           <h3>Дорого</h3>
-          <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает
+            определенный статус?</p>
         </li>
       </ul>
     </section>
@@ -78,7 +80,8 @@
           </li>
           <li class="news-item">
             <p>
-              В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды
+              В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши
+              стройные ряды
             </p>
             <time datetime="2016-01-18">18 января</time>
           </li>
@@ -230,8 +233,8 @@
     var popup = document.querySelector(".modal-login");
     var close = popup.querySelector(".modal-close");
     var form = popup.querySelector("form");
-    var login = form.querySelector("[name=login");
-    var password = form.querySelector("[name=password");
+    var login = form.querySelector("[name=login]");
+    var password = form.querySelector("[name=password]");
 
     var isStorageSupport = true;
     var loginStorage = "";
@@ -252,10 +255,21 @@
         login.focus();
       }
     });
+
     close.addEventListener("click", function (evt) {
       evt.preventDefault();
       popup.classList.remove("modal-show");
     });
+
+    window.addEventListener("keydown", function (evt) {
+      if (evt.keyCode === 27) {
+        if (popup.classList.contains("modal-show")) {
+          evt.preventDefault();
+          popup.classList.remove("modal-show");
+        }
+      }
+    });
+
     form.addEventListener("submit", function (evt) {
       if (!(login.value && password.value)) {
         evt.preventDefault();
@@ -266,6 +280,7 @@
         }
       }
     });
+
   </script>
 </body>
 
