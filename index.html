@@ -242,7 +242,6 @@
       isStorageSupport = false;
     }
 
-
     link.addEventListener("click", function (evt) {
       evt.preventDefault();
       popup.classList.add("modal-show");
@@ -260,7 +259,9 @@
         evt.preventDefault();
         console.log("Форма не отправлена");
       } else {
-        localStorage.setItem("login", login.value);
+        if (isStorageSupport) {
+          localStorage.setItem("login", login.value);
+        }
       }
     });
   </script>
