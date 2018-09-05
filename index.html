@@ -245,6 +245,8 @@
       if (!(login.value && password.value)) {
         evt.preventDefault();
         console.log("Форма не отправлена");
+      } else {
+        localStorage.setItem("login", login.value);
       }
     });
   </script>
