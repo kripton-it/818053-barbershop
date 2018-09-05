@@ -242,8 +242,10 @@
       popup.classList.remove("modal-show");
     });
     form.addEventListener("submit", function (evt) {
-      evt.preventDefault();
-      console.log("Форма не отправлена");
+      if (!(login.value && password.value)) {
+        evt.preventDefault();
+        console.log("Форма не отправлена");
+      }
     });
   </script>
 </body>
