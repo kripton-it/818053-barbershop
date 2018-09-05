@@ -245,9 +245,11 @@
     link.addEventListener("click", function (evt) {
       evt.preventDefault();
       popup.classList.add("modal-show");
-      login.focus();
       if (loginStorage) {
         login.value = loginStorage;
+        password.focus();
+      } else {
+        login.focus();
       }
     });
     close.addEventListener("click", function (evt) {
