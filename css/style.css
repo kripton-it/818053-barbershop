@@ -1186,8 +1186,12 @@ img {
 
 .modal {
   position: fixed;
-
+  display: none;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-show {
+  display: block;
 }
 
 /* 3.16.1 модальное окно с формой авторизации */
@@ -1195,9 +1199,6 @@ img {
 .modal-login {
   top: 120px;
   left: 50%;
-  /* временно */
-
-  display: none;
   width: 300px;
   margin-left: -230px;  /* общая ширина = width (300) + padding-left (80) + padding-right (80) = 460 */
   padding: 50px 80px;
@@ -1337,9 +1338,7 @@ img {
 .modal-map {
   top: 50%;
   left: 50%;
-  /* временно  */
 
-  display: none;
   width: 766px;
   height: 560px;
   margin-top: -280px;
