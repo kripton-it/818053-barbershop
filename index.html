@@ -237,6 +237,9 @@
       evt.preventDefault();
       popup.classList.add("modal-show");
       login.focus();
+      if (loginStorage) {
+        login.value = loginStorage;
+      }
     });
     close.addEventListener("click", function (evt) {
       evt.preventDefault();
